@@ -1,0 +1,43 @@
+.classCard__upper {
+    background-color:#F05454  ;
+      height: 90px;
+    position: relative;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .classCard {
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+    width: 300px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+margin-right: 20px;
+    cursor: pointer;
+  }
+  .siz :hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 2px 4px 4px 8px rgba(38, 38, 38, 0.2);
+
+  }
+  .classCard__middle {
+    height: 150px;
+    background-color:#30475E;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  
+  .classCard__className {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .classCard__creatorName {
+    position: absolute;
+    bottom: 12px;
+    font-size: 15px;
+  }
+  .classCard__lower {
+    display: flex;
+    flex-direction: row-reverse;
+  }
